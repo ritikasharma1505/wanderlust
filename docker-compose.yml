@@ -21,8 +21,8 @@ services:
   frontend:
     container_name: frontend
     build: ./frontend
-    env_file:
-      - ./frontend/.env.docker
+      #  env_file:
+      # - ./frontend/.env.docker
     ports:
       - "5173:5173"
 
